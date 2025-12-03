@@ -42,7 +42,7 @@ app.use(CustomerRouter)
 
 
 
-const port=5000 || process.env.PORT
+const port=9000 || process.env.PORT
 app.listen(port,()=>{
     console.log(`app is running on port ${port}`)
 })
